@@ -1,0 +1,61 @@
+NOVIDADE
+-Em resumo, use new quando precisar criar uma nova instância de um tipo, e evite quando já tiver uma instância ou estiver utilizando tipos por valor de forma 
+apropriada;
+- quando voce coloca algo e um ponto, tipo musica. é como se voce estivesse entrando dentro da variavel;
+
+Nome da musica 
+Artista 
+Duracao 
+Disponivel 
+
+TIPOS PRIMITIVOS
+-Grupo de variaveis tipadas;
+-string,int;
+
+
+
+ORIENTACAO A OBJETOS/OQ EU ENTENDI
+-Primeiro temos o arquivo principal, e um outro arquivo que ta a classe. A classe é como se fosse um molde, que terá seus objetos(propriedades, comportamento) 
+(dentro das chaves). Qnd vc faz por ex Carro meuCarro = new Carro(), voce está criando uma instancia da classe, e voce pode atribuir propriedades e comportamentos
+de acordo com os objetos;
+-método é tipo funcao;
+-A classe tem os seus objetos, que servirao tipo de referencia, molde, para valores que voce atribuirá. Assim como o método, que é tipo função dentro da classe, que
+também executa uma série de códigos e ações, mas com moldes. No arquivo principal voce atribui valores para os objetos definidos dentro da classe;
+------------------------
+-Classe = Agrupamos conceitos em um conceito maior, numa coisa mais complexa. O agrupamento de costume no C# é feito dessa maneira, usando chaves. O que ta na frente,
+Musica, é o nome da classe.
+class Musica
+{
+    public string nome;
+    public string artista;
+    public int duracao;
+    public bool disponivel;
+}
+- o public é para que voce consiga exibir para fora, que ele é público;
+Musica musica1 = new Musica() = musica1 é o nome de uma variavel que está armazenando a instância da classe Musica, é um identificador que voce usará para 
+referenciar essa instância (no caso a classe Musica) no seu código;
+-O operador new é usado para criar uma nova instância da classe Musica. Ao usar new, você está chamando o construtor da classe, que pode inicializar os atributos da 
+instância e realizar outras configurações necessárias. Ou seja, o new inicializa os atributos, alocar espaço na memoria para armazenar a nova instancia da classe;
+
+CRIANDO COMPORTAMENTO PARA UMA CLASSE (metodo) - como se fosse uma função. Bem parecida, apesar de algumas pequenas diferenças
+-O metodo é exatamente isso, voce criar um comportamento para uma classe;
+ public void ExibirFichaTecnica()
+ {
+     Console.WriteLine($"Nome: {nome}");
+     Console.WriteLine($"Artista: {artista}");
+     Console.WriteLine($"Duracao: {duracao}");
+     Console.WriteLine($"Disponivel: {disponivel}");
+     if (disponivel)
+     {
+         Console.WriteLine("Disponivel no plano");
+     } else
+     {
+         Console.WriteLine("Adquita o plano Plus+");
+     }
+ }
+-Public, pra permitir que ela seja chamada fora do arquivo;
+-é
+
+
+
+
