@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C4EE8BC3-AB10-4503-A1DB-D04305EE34FE}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C4EE8BC3-AB10-4503-A1DB-D04305EE34FE}|ScreenSound\\ScreenSound.csproj|c:\\users\\vh\\documents\\c-sharp-aplicando-a-orientacao-a-objetos\\screensound\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4EE8BC3-AB10-4503-A1DB-D04305EE34FE}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4EE8BC3-AB10-4503-A1DB-D04305EE34FE}|ScreenSound\\ScreenSound.csproj|c:\\users\\vh\\documents\\c-sharp-aplicando-a-orientacao-a-objetos\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4EE8BC3-AB10-4503-A1DB-D04305EE34FE}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -28,28 +32,35 @@
               "RelativeDocumentMoniker": "ScreenSound\\Musica.cs",
               "ToolTip": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\ScreenSound\\ScreenSound\\Musica.cs",
               "RelativeToolTip": "ScreenSound\\Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T18:03:15.003Z",
+              "WhenOpened": "2024-10-22T21:36:17.477Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 75,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\ScreenSound\\ScreenSound\\Album.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Album.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\ScreenSound\\ScreenSound\\Album.cs",
+              "RelativeToolTip": "ScreenSound\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:04:20.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
               "ToolTip": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:58:35.74Z",
+              "WhenOpened": "2024-10-22T21:35:54.016Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,15 @@
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\bin\Debug\net8.0\Carro2.exe
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\bin\Debug\net8.0\Carro2.deps.json
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\bin\Debug\net8.0\Carro2.runtimeconfig.json
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\bin\Debug\net8.0\Carro2.dll
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\bin\Debug\net8.0\Carro2.pdb
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.AssemblyInfoInputs.cache
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.AssemblyInfo.cs
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.csproj.CoreCompileInputs.cache
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.sourcelink.json
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.dll
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\refint\Carro2.dll
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.pdb
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\Carro2.genruntimeconfig.cache
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Carro2\Carro2\obj\Debug\net8.0\ref\Carro2.dll

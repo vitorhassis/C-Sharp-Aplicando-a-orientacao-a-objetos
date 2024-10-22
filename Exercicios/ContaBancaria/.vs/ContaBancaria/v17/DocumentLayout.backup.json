@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\Exercicios\\ContaBancaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E1D562-464A-40BF-9949-01E9C6D57FA7}|ContaBancaria\\ContaBancaria.csproj|c:\\users\\vh\\documents\\c-sharp-aplicando-a-orientacao-a-objetos\\exercicios\\contabancaria\\contabancaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E1D562-464A-40BF-9949-01E9C6D57FA7}|ContaBancaria\\ContaBancaria.csproj|solutionrelative:contabancaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E1D562-464A-40BF-9949-01E9C6D57FA7}|ContaBancaria\\ContaBancaria.csproj|c:\\users\\vh\\documents\\c-sharp-aplicando-a-orientacao-a-objetos\\exercicios\\contabancaria\\contabancaria\\codefile1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E1D562-464A-40BF-9949-01E9C6D57FA7}|ContaBancaria\\ContaBancaria.csproj|solutionrelative:contabancaria\\codefile1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 325,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CodeFile1.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\Exercicios\\ContaBancaria\\ContaBancaria\\CodeFile1.cs",
+              "RelativeDocumentMoniker": "ContaBancaria\\CodeFile1.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\Exercicios\\ContaBancaria\\ContaBancaria\\CodeFile1.cs*",
+              "RelativeToolTip": "ContaBancaria\\CodeFile1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T18:39:48.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\Exercicios\\ContaBancaria\\ContaBancaria\\Program.cs",
+              "RelativeDocumentMoniker": "ContaBancaria\\Program.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\C-Sharp-Aplicando-a-orientacao-a-objetos\\Exercicios\\ContaBancaria\\ContaBancaria\\Program.cs*",
+              "RelativeToolTip": "ContaBancaria\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T18:39:35Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

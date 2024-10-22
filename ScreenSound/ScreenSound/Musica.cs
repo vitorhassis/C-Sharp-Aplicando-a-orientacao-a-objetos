@@ -1,6 +1,6 @@
 ﻿class Musica
 {
-    public string Nome { get; set; }
+    public string Nome { get; set; } //"Love of My Life" musica 1 e "Bohemian Rhapsody" musica 2
     public string Artista { get; set; }
     public int Duracao { get; set; }
     public bool Disponivel { get;  set; } //operacao de leitura e escrita 
