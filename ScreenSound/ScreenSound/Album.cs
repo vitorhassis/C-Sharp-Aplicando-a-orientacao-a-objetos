@@ -1,7 +1,12 @@
 ﻿class Album
 {
+    public Album(string nome)
+    {
+        Nome = nome;   
+    }
+
     private List<Musica> musicas = new List<Musica>();
-    public string Nome { get; set; } //"A night at the opera"
+    public string Nome { get; } //"A night at the opera". So o get, tem q inicializar no construtor
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
 
     /*o metodo AdicionarMusica vai adicionar na lista musica, o parametro musica. No caso da sua estrutura, (Musica musica) Musica = pra onde vai; musica = o que vai ser levado
