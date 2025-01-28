@@ -1,0 +1,15 @@
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\bin\Debug\net8.0\Conta.exe
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\bin\Debug\net8.0\Conta.deps.json
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\bin\Debug\net8.0\Conta.runtimeconfig.json
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\bin\Debug\net8.0\Conta.dll
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\bin\Debug\net8.0\Conta.pdb
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.AssemblyInfoInputs.cache
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.AssemblyInfo.cs
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.csproj.CoreCompileInputs.cache
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.sourcelink.json
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.dll
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\refint\Conta.dll
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.pdb
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\Conta.genruntimeconfig.cache
+C:\Users\vh\Documents\C-Sharp-Aplicando-a-orientacao-a-objetos\Exercicios\Conta\Conta\obj\Debug\net8.0\ref\Conta.dll

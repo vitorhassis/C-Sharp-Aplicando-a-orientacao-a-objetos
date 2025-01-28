@@ -1,25 +1,27 @@
+------------------------
 NOVIDADE
 -Em resumo, use new quando precisar criar uma nova instância de um tipo, e evite quando já tiver uma instância ou estiver utilizando tipos por valor de forma 
 apropriada;
 - quando voce coloca algo e um ponto, tipo musica. é como se voce estivesse entrando dentro da variavel;
-
-TIPOS PRIMITIVOS
--Grupo de variaveis tipadas;
--string,int;
-
-COMANDOS
+------------------------
+COMANDOS/ATALHOS
+-cw = ConsoleWriteLine;
+-cr = ConsoleReadLine;
 -control + r + r = voce mudar a nomenclatura de todas as strings de uma vez;
 -prop + tab = propriedade, e ja atribui o get set, todo o template;
 - o "referencias" em cima da propriedade, indica em quantos locais ela está;
-
-
+-control + shift + a = cria um arquivo direto;
+-ctor = monta a estrutura do construtor, mas sem o argumento;
+-control + shift + a = atalho para criar um arquivo de código;
+-seleciona as propriedades, botão direito, acoes rápidas, gerar construtor = gerar construtor com as propriedades escolhidas;
+------------------------
 ORIENTACAO A OBJETOS/OQ EU ENTENDI
 -Primeiro temos o arquivo principal, e um outro arquivo que ta a classe. A classe é como se fosse um molde, que terá seus objetos(propriedades, comportamento) 
-(dentro das chaves). Qnd vc faz por ex Carro meuCarro = new Carro(), voce está criando uma instancia da classe, e voce pode atribuir propriedades e comportamentos
-de acordo com os objetos;
+(dentro das chaves). Qnd vc faz por ex Carro meuCarro = new Carro(), voce está criando uma instancia da classe, e voce pode atribuir valores específico às propriedades
+e métodos;
 -método é tipo funcao;
--A classe tem os seus ATRIBUTOS que servirao tipo de referencia molde para valores que serao atribuidos. Assim como o método, que é tipo função dentro da classe, que
-também executa uma série de códigos e ações, mas com moldes. No arquivo principal voce atribui valores para os objetos definidos dentro da classe;
+-A classe tem suas propriedades que servirao tipo de referencia/molde para valores que serao atribuidos. Assim como o método, que é tipo função dentro da classe, que
+também executa uma série de códigos e ações, mas com moldes. No arquivo principal voce atribui tais valores para as propriedades definidas dentro da classe;
 ------------------------
 -Classe = Agrupamos conceitos em um conceito maior, numa coisa mais complexa. O agrupamento de costume no C# é feito dessa maneira, usando chaves. O que ta na frente,
 Musica, é o nome da classe.
@@ -35,7 +37,7 @@ Musica musica1 = new Musica() = musica1 é o nome de uma variavel que está arma
 referenciar essa instância (no caso a classe Musica) no seu código;
 -O operador new é usado para criar uma nova instância da classe Musica. Ao usar new, você está chamando o construtor da classe, que pode inicializar os atributos da 
 instância e realizar outras configurações necessárias. Ou seja, o new inicializa os atributos, alocar espaço na memoria para armazenar a nova instancia da classe;
-
+------------------------
 CRIANDO COMPORTAMENTO PARA UMA CLASSE (metodo) - como se fosse uma função. Bem parecida, apesar de algumas pequenas diferenças
 -O metodo é exatamente isso, voce criar um comportamento para uma classe;
  public void ExibirFichaTecnica()
@@ -53,9 +55,9 @@ CRIANDO COMPORTAMENTO PARA UMA CLASSE (metodo) - como se fosse uma função. Bem
      }
  }
 -Public, pra permitir que ela seja chamada fora do arquivo;
+------------------------
+CLASSE-INSTANCIA/PUBLIC-PRIVATE/GET-SET
 
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ (topico grande que vai ter subtopicos dentro)
-CLASSE/INSTANCIA/PROPRIEDADES
 CLASSE
 -para criar uma classe, n tem segredo:
 class Nome 
@@ -64,8 +66,6 @@ class Nome
   
 }
 -voce vai criando as propriedades da classe que voce quer;
--a classe é como um molde, ou um modelo que possuem suas propriedades, métodos(funcoes);
--entao por ex, vamo definir que:
 public class Album
 {
     public string Nome { get; set; }	      -Definimos a classe com suas propriedades(Nome e Artista). get set permitem a leitura e escrita das propriedades;
@@ -77,19 +77,11 @@ Album albumDoQueen = new Album(); 	      -La na main, voce primeiro instancia a 
 
 albumDoQueen.Nome = "A Night at the Opera";
 albumDoQueen.Artista = "Queen";			-Aq seria a continuação. "A night at the Opera" e "Queen" são os valores atribuidos às propriedades Nome e Artista;
---------------------------
-INSTANCIA
--Quando voce cria uma instancia, no main, voce ta criando uma instancia/objeto da classe "molde/principal". Dentro dessa classe instancionada criada, terão as
-propriedades daquela instancia. Cada propriedade receberá por fim, um valor específico;
--Isso permite que cada propriedade tenha seus proprios dados! Apesar dos atributos moldes (eu chamo assim) se manderem os mesmos;
--Primeiro voce faz uma instancia da classe. Depois atribui os valores específicos a cada propriedade dentro da classe instancionada;
---------------------------
+
 INSTANCIA/GET SET
 -E por fim, na estrutura da classe tem o get set, que é tipo basico da estrutura do class envolvendo as instancias. No caso, ela te permite que voce manipule as 
 instancias. eles permitem que voce controle o acesso a esses campos. o get eh leitura e o set eh escrita. o get permite que voce acesse o valor de um campo, e o set
 permite que voce atribua um valor ao campo, uma condição a ele. Com o set voce pode adicionar logica para validar os dados antes de atribui-los ao campo!;
--nao é obrigatorio. Por ex a propriedade DuracaoTotal voce coloca funcao anonima na frente dela e tals;
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ 
 
 PUBLIC/PRIVATE
 -Voce so consegue ter o acesso a determinado atributo, dentro das chaves (caso for privado);
@@ -98,8 +90,7 @@ PUBLIC/PRIVATE
 Console.WriteLine(musica1.disponivel) = no caso, disponivel é um objeto que é privado. Logo, essa linha nao vai funcionar. Na verdade, ela nem vai conseguir 
 encontrar;
 
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ (topico grande que vai ter subtopicos dentro)
-PROPRIEDADE GET (leitura) SET (ESCRITA) - PROPRIEDADE - 
+PROPRIEDADE GET (leitura) SET (ESCRITA) - PROPRIEDADE - (propriedade de leitura - get -)
 -Tal propriedade permite voce acessar e modificar os valores dos atributos (objetos) de uma classe;
 -Precisa ter letra maiuscula, por ser uma propriedade que vai receber set e get (boas praticas);
 -Analogia: Imagine que voce tenha uma casa, e nessa casa voce tem um quarto só de brinquedos. O metodo get, seria a ação de abrir a porta do quarto e ver todos os 
@@ -111,7 +102,8 @@ funcione conforme o esperado;
 -Quando voce tira o set, voce está dizendo que não é possível atribuir um valor, apenas ler ele. (get);
 -Outro exemplo de um saldo bancário. Pra voce adicionar ou remover um valor do seu saldo, voce primeiro precisa ler esse saldo (get), e para adicionar ou remover um
 valor desse saldo (set, modificar o valor (valor aq ta literal)) o saldo precisa ser positivo (uma condição);
---------------------------
+-Não tem como você ter uma propriedade apenas do tipo set. Se ela é set, ela é get set, até porque pra alterar o valor você precisa acessá-lo. Agora, ela pode ser apenas get.
+
 public string DescricaoResumida 
 {
     get
@@ -120,14 +112,13 @@ public string DescricaoResumida
     } 
 }
 -o metodo DescricaoResumida so possui get, ou seja, nao vai modificar o valor das variaveis, ele apenas vai ler as variaveis. É 
----------------------------
+
+
 -voce consegue ter uma propriedade de somente leitura (get) ou apenas leitura (set);
 
 public string DescricaoResumida =>
     $"A musica {Nome} pertence a banda {Artista}";    				(02)APENAS O GET, APENAS LEITURA - mais usual - 
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-
+------------------------
 LAMBDA (funcao anonima)
 -lambdas no C# são funções anônimas que fornecem uma sintaxe concisa para escrever blocos de código em situações onde a criação de um método separado seria 
 inconveniente ou desnecessário. Elas oferecem vantagens em termos de concisão, legibilidade, flexibilidade e encerramento de escopo;
@@ -149,16 +140,16 @@ foreach (int numero in numerosPares)
     Console.WriteLine(numero);
 }
 
--Em vez de criar uma funcao, e ter um bloco de código, dps chamar ela, com o lambda(funcao anonima) voce consegue fazer tudo numa linha. Voce apenas colocao que ela
+-Em vez de criar um metodo, e ter um bloco de código, dps chamar ela, O lambda(funcao anonima) permite que você  consiga fazer tudo isso de maneira mais simples e direa. Voce apenas coloca o que ela
 vai fazer, que nesse exemplo, é pegar todos os elementos da lista numeros (findAll) (o nome da funcao anonima é numero), vai armazenar todos os elementos que,
-dividos por 2 com resto 0 (pares), em numero. Depois vai exibir eles no forEach (ja que forEach é realizar uma ação em uma array); 
+dividos por 2 com resto 0 (pares), em "numerosPares". Depois vai exibir eles no forEach (ja que forEach é realizar uma ação em uma array); 
 -Eles são especialmente úteis quando se trata de trabalhar com coleções de dados, realizar operações em uma sequência de elementos ou lidar com delegados;
-
+-Tem tb o outro exemplo de lambda la no "Corpo de Propriedade";
+------------------------
 ARRAY
 -private List<Musica> musicas = new List<Musica>() = aq eh so um exemplo. No caso, um campo privado que é um array (List) de Musica, que se chama musicas. Voce 
 coloca o = newList... pra de fato criar ela;
-
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ (topico grande que vai ter subtopicos dentro)
+------------------------
 INTELIGANDO A CLASSE DA MUSICA COM BANDA
 -Criamos uma classe chamada album, e dentro dela tem um método = 
 public void AdicionarMusica(Musica musica) 
@@ -198,93 +189,185 @@ Por fim, na classe instanciada do Album, no caso albumDoQueen, chamamos a funç�
 definido dentro de cada classe instancionada (cada uma das 2, um nome de uma musica) para um array dentro do album. RESUMINDO TUDO, ADICIONAMOS MUSICA EM UM ALBUM 
 por meio de classes. Meio confuso talvez mas fez total sentido aq;
 -----------------------------------
-public void ExibirMusicasDoAlbum()
-{
-    Console.WriteLine($"Listas de musicas do ábum {Nome}:\n");
-    foreach(var musica in musicas)
-    {
-        Console.WriteLine($"Musica: {musica.Nome}");
-    }
-}
--Criamos uma funcao para exibir entao as musicas do album, depois de todo esse processo. De primeira mão, eu pensei no for, para exibir os elementos da array, tipo
-sla for (int i = 0; i<=strlen(musicas); i++) {
-	Console.WriteLine($"{musica.Nome}");		-Sla, pensei em C. Enfim, pensei em usar o for;
-}
--Mas ai, lembramos que para percorrer os elementos de uma lista/array, voce nao precisa usar o for, voce usar o foreach! e por isso fica daquele jeito:
+FOREACH
+-Em vez de usar um for, voce usa o foreach para por ex, percorrer entre os elementos de um vetor;
 
     foreach(var musica in musicas) 	-para (var musica (os elementos) in musicas (presentes no array musicas) { exibir ent o nome das musicas };
     {
         Console.WriteLine($"Musica: {musica.Nome}");
     }
 -----------------------------------
-(como está ficando) PROGRAM.CS
-    Album albumDoQueen = new Album(); //instanciando a classe 
-    albumDoQueen.Nome = "A night at the opera";
-
-    Musica musica1 = new Musica();
-    musica1.Nome = "Love of My Life";
-musica1.Duracao = 213; 
-
-    Musica musica2 = new Musica();
-    musica2.Nome = "Bohemian Rhapsody";
-    musica2.Duracao = 354;
-
-/*musica1 e musica2 sao propriedades que serao passadas como parametro para a funcao AdicionarMusica que, por sua vez tem a ação de adicionar o que 
- for de parametro no array. Ou seja, chamamos uma função que vai adicionar a música na lista de musicas, através da função*/
-    albumDoQueen.AdicionarMusica(musica1); 
-    albumDoQueen.AdicionarMusica(musica2);
-
-albumDoQueen.ExibirMusicasDoAlbum();
-
-(como esta ficando) ALBUM.CS
-class Album
-{
-    private List<Musica> musicas = new List<Musica>();
-    public string Nome { get; set; } //"A night at the opera"
-    public int DuracaoTotal { get; set; }
-
-    /*o metodo AdicionarMusica vai adicionar na lista musica, o parametro musica. No caso da sua estrutura, (Musica musica) Musica = pra onde vai; musica = o que vai ser levado
-     */
-    public void AdicionarMusica(Musica musica) 
-    {
-        musicas.Add(musica); //adicionar o parametro no array, ou seja, adicionar musica na lista de musicas. Dentro pra fora!
-    }
-    public void ExibirMusicasDoAlbum()
-    {
-        Console.WriteLine($"Listas de musicas do ábum {Nome}:\n");
-        foreach(var musica in musicas)
-        {
-            Console.WriteLine($"Musica: {musica.Nome}");
-        }
-    }
-}
-
-(como esta ficando) MUSICA.CS
-class Musica
-{
-    public string Nome { get; set; } //"Love of My Life" musica 1 e "Bohemian Rhapsody" musica 2
-    public string Artista { get; set; }
-    public int Duracao { get; set; }
-    public bool Disponivel { get;  set; } //operacao de leitura e escrita 
-    public string DescricaoResumida =>
-        $"A musica {Nome} pertence a banda {Artista}";
-
-    public void ExibirFichaTecnica()
-    {
-        Console.WriteLine($"Nome: {Nome}");
-        Console.WriteLine($"Artista: {Artista}");
-        Console.WriteLine($"Duracao: {Duracao}");
-        Console.WriteLine($"Disponivel: {Disponivel}");
-        if (Disponivel)
-        {
-            Console.WriteLine("Disponivel no plano");
-        } else
-        {
-            Console.WriteLine("Adquita o plano Plus+");
-        }
-    }
-}
----------------------
+PUBLIC INT DURACAOTOTAL => MUSICAS.SUM(M=>M.DURACAO)
 -Por fim, oq ele muda é tirar o metodo get set pra DuracaoTotal e criar uma funcao anonima que vai somar todos os valores de Duracao da classe Musica;
 public int DuracaoTotal => musicas.Sum(m => m.Duracao) musicas.Sum(musicas é a lista de Musica(classe)). Mas somar oq la dentro? quero somar a duracao das musicas.
 Por isso vc chama outra funcao anonima dentro da funcao anonima. (m => m.Duracao) é voce indicando o que voce quer somar tudo;
+------------------------
+DICA
+-Melhor isolar do que fazer junto, é uma vantagem;
+-Se a gnt n isola, pode ficar mais confuso para fazer alterações, adicionar coisas, métodos, propriedades, etc;
+------------------------ 
+CONSTRUTOR
+-inicialização = os construtores sao usados para definir valores iniciais para os campos de uma classe, util para garantir que um objeto tenha um estado válido
+logo após a sua criação (por exemplo, a propriedade Duracao e Disponivel (dai na classe voce so deixa o get);
+-Voce ja atribui valor pelo parametro, direto. Sem a necessidade de fazer separadamente;
+-Impor regras sobre como os objetos podem ser criados. Por exemplo, a classe Musica tem um construtor que exige uma instancia de Banda ANTES DELA. Ou seja, voce
+so pode criar um objeto da classe Musica, se antes, voce criar e associar a esse objeto, uma instancia de Banda;
+-Nao tem limite de parametro;
+-Tava meio confuso mesmo, varias classes mas ficava meio solto. Esse construtor tem exatamente esse sentido de integrar o sistema. Sendo obrigatorio voce informar
+o nome do album, antes de conseguir adicionar uma musica;
+-No momento em que for criar a música, ela ja tiver um album associada;
+-Ou seja, quando voce criar uma musica, vc ja vai ter q indicar seu album;
+-ESTRUTURA: o seu tipo é o proprio nome da classe. Public;
+-O q fizemos foi criar um construtor na classe Musica. Agora então, voce vai ter q informar qual o nome da banda antes mesmo de criar uma musica:
+
+ public Musica(Banda artista)
+ {
+     Artista = artista;    				-CONSTRUTOR
+ }
+
+
+Banda queen = new Banda();
+queen.Nome = "Queen";				-AGORA TEM Q SUBIR A INSTANCIA DA BANDA ANTES DE ADICIONAR A MUSICA. NA INSTANCIA DA MUSICA VOCE ADICIONA A SUA BANDA
+
+
+ Musica musica1 = new Musica(queen); 			-AGORA SIM. DIZEMOS QUAL O NOME DA BANDA PARA QUE FOSSE POSSÍVEL CRIAR A MÚSICA
+
+-agora vamos criar um construtor para a classe banda;
+-Tem propriedades que nao trabalhamos, como Duracao e Disponivel. Por isso tivemos que inicializar elas dentro dos construtores. Sim, virgula entre as propriedades, e 
+no final ponto e virgula; 
+
+VANTAGENS CONSTRUTOR
+-Usar um construtor auxilia na inicialização dos estados;
+-Usar um construtor facilita o uso dos objetos.
+-Usar um construtor auxilia nos dados de entrada das instâncias;
+-voce tem as propriedades de uma classe, ex:
+class Titular
+{
+    public string Nome { get; set; }
+    public string Cpf { get; set; }					
+    public string Endereco { get; set; }
+}
+-Para atribuir valores especificos, teria que:
+
+Titular.Nome="aaa"
+Titular.Cpf="150.740.689-40"		---> ATRIBUIÇÃO DE VALORES
+Titular.Endereco="rua goias"
+-A criacao de um construtor, te permite fazer assim
+ Titular titular = new Titular ("aaa", "150.740.689-40", "rua goias")		---> VALORES ATRIBUÍDOS NO MOMENTO DA CRIAÇÃO 
+-Sendo mais prático e eficiente;
+-Em resumo, usar um construtor torna a criação de objetos mais segura, clara e menos propensa a erros, enquanto a atribuição de valores após a criação pode ser útil para 
+situações mais simples ou quando a flexibilidade é necessária;
+-----------------------------------
+VOLTA 2025 (revendo as aulas pra lembrar e dar continuidade, pode ter novas anotações sobre os conteúdos)
+
+CORPO DE PROPRIEDADE = forma mais direta e usual de criar uma propriedade tradicional com lambda (APENAS GET) que retorna um valor, por exemplo, uma frase interpolada com variáveis. Quando voce quer que uma propriedade retorne um valor (como uma frase, ou seja, uma propriedade que APENAS vai RETORNAR ALGO, e não vai ser atribuída, ou manusear um valor) Ex:
+
+public string DescricaoResumida
+{
+    get
+    {
+        return $"O carro {fabricante}, modelo {modelo} ano {ano}";		(1) METODO TRADICIONAL
+    }
+}
+
+public string DescricaoResumida =>
+    $"O carro {fabricante}, modelo {modelo} ano {ano}";			(2) CORPO DE PROPRIEDADE (propriedade que retorna um valor diretamente. Usando o lambda "=>" (função anônima))
+-percebe-se o uso do => que faz parte do corpo de propriedade. 
+-----------------------------------
+GET SET
+-São propriedades estabelecidas as propriedades da classe. Se for get, você consegue ler o valor, se for set você consegue alterar/atribuir. Mas o ponto ta que, existem determinadas propriedades sensíveis que nem todo mundo pode ter a capacidade de, por exemplo, alterar, atribuir ou manipular diretamente. A propriedade set, te permite ter um controle centralizado. Por exemplo, ele permite que exista uma função que vai validar a atribuição de um valor ou não. EX:
+-musica.disponivel=true => aq eu estou atribuindo o valor de verdadeiro para a disponibilidade de uma musica diretamente, sem nenhuma condição, posso fazer essa atribuição sem mesmo ter fornecido outras informações da música, o que não faz sentido. Usando o método get set, você pode fazer com que, por exemplo, essa atribuição só seja realmente feita se o nome da musica for atribuída. Porque como é direta, o cara pode colocar (de maneira indesejada) a disponibilidade mas não colocar um nome. Faz sentido? uma musica sem nome? não. Entao é isso que o set pode fazer;
+-----------------------------------
+FUNCAO LAMBDA / ANONIMA
+-Ela te permite economizar linha, fazer de maneira direta. Tem um tópico ali em cima mais detalhado, mas oq eu entendi melhor é que por ex:
+List<int> numerosPares = numeros.FindAll(numero => numero % 2 == 0); Exemplo de uma função lambda. números.findAll(numero => numero ...) o primeiro "numero", a esquerda de "=>" é apenas o parâmetro de lambda. Ou seja, ele pode ser qualquer nome, colocamos "numero" porque fica com uma leitura mais lógica e deduzível. a tradução da linha fica: "Para cada numero eu vou pegar cada numero e dividir por 2(...);
+
+private List<Musica> musicas = new List<Musica>() = Está inicializando uma lista privada até então vazia. <Musica> representa a classe dos objetos que preencherão aquela lista;
+
+public void AdicionarMusica(Musica musica) 
+{
+    musicas.Add(musica); 
+}
+-Aq, temos um método chamado AdicionarMusica (Musica musica) = Onde Musica, indica que o parâmetro que estiver na sua frente, virá dele. Ou seja, você criou um método, uma função que adiciona música a uma lista. É como se ele perguntasse: "Tá, mas da onde vem esse objeto? Esse objeto que no caso é a música? Ele vem da classe Musica. "musica" é apenas o nome do parâmetro que armazenará a lista.  musicas.Add(musica) = Vai adicionar esse parâmetro (chamado de "musica") que ta vindo da classe Musica, na lista "musicas". Confuso mas fez sentido; 
+
+
+
+public int DuracaoTotal => musicas.Sum(m => m.Duracao) 
+-Aq temos uma propriedade que, usando a função Lambda, você vai somar a duração de cada musica. o .Sum é de soma. o "m" dentro do parênteses nada mais é do que um parâmetro da função lambda. Eu vou acessar a lista "musicas" e somar os elementos que tem la (posso chamar de qualquer coisa, assim como o método AdicionarMusica, que dentro do parênteses (Musica musica), "musica" indica apenas um parâmetro, ou seja, um objeto que virá da classe Musica. Nesse caso, eu vou somar esses objetos que estão na lista musicas (esses objetos que OPTAMOS por chamar de m) e armazenar esse valor da soma em uma propriedade pública do tipo inteiro chamado de DuracaoTotal;
+-----------------------------------
+VANTAGENS DE CRIAR CLASSES
+-Isolar as informações, ficando mais fácil para manipularmos, alterarmos etc;	
+-----------------------------------
+CONSTRUTOR
+-Temos que tirar o "set" da propriedade quando ela estiver no construtor, porque como ela já será informada logo de cara, ou seja, agora ela é uma propriedade apenas de leitura, visto que o valor daquela propriedade só pode ser definido uma vez;
+-Você pode ter várias propriedades em uma classe, mas o construtor serve para definir quais delas devem receber valores logo no momento da criação do objeto. As propriedades que não são inicializadas no construtor podem:
+Ficar com um valor padrão do tipo (como null para tipos de referência, 0 para números, etc.).
+Ser inicializadas posteriormente no código, fora do construtor.
+Ter um valor padrão definido diretamente na propriedade, caso você queira garantir que nunca fiquem sem valor.
+-n tem retorno nem void;
+-chamado automaticamente quando você cria um objeto;
+-ele configura o objeto;
+-pode validar informações;
+-como se fosse o "primeiro passo" para o objeto existir com todos os seus dados configurados;
+-é como se ele organizasse todas as informações para não existir erros, para configurar o objeto e ele ser usado corretamente;
+-A questão é que antes de ensinar sobre construtor, podíamos definir por exemplo um nome de uma banda aleatória a determinada musica num objeto de Musica (isso não deveria ser possível, pq o certo seria definir um nome de uma música na classe Musica, e um nome da banda na classe Banda, e não tudo free assim, desorganizado). A partir do momento que definimos com um construtor que ao criar um objeto de "Banda" (ai com esse objeto criado vc pode atribuir um valor para a propriedade "Nome"), posteriormente, voce precisa informá-lo para criar um objeto do tipo "Musica", faz com que você consiga apenas acessar aquele nome (get), e não alterá-lo;
+-Interligando classes;
+
+class Musica
+ {
+(...)
+public Banda Artista { get; }
+(...)
+}
+
+-"Artista" é uma propriedade que armazena um objeto da classe Banda. É como se fosse uma ponte, que permite que a classe Musica, por meio de um objeto, possa acessar (get, então literalmente só "ver") a classe Banda. Nesse caso, ela consegue ter o acesso de uma única propriedade existente na classe "Banda", o nome dela;
+
+
+class Banda
+{
+    public Banda(string nome) 
+    {
+        Nome = nome;
+    }
+}
+
+-Aq eu tenho um construtor que diz que, ele vai receber um parâmetro do tipo string chamado "nome". O valor pertencente a esse parâmetro, será atribuído à propriedade "Nome" da classe Banda;
+
+
+public Musica (Banda artista, string nome)
+{
+    Artista = artista;
+    Nome = nome;
+}
+-Esse construtor da classe "Musica", diz que ao criar um objeto de "Musica", você tem que informar de cara o parâmetro do tipo "Banda" responsável por aquela música, e depois um parâmetro chamado "nome" do tipo string. Ambas informações atribuirão valores. o primeiro para a propriedade que armazena um objeto da classe Banda (Artista = artista) e Nome = nome;
+-Exemplo:
+
+Banda banda1 = new Banda ("Baroes da pisadinha");
+Musica musica1 = new Musica (banda1,"calabreso"). Agora, musica1 tem:
+-Nome (da musica1) = "calabreso";
+-Banda Artista = banda1. Agora, atribuído um objeto da classe "Banda" nessa propriedade, a propriedade "Artista" permite o acesso completo daquela classe. Segue:
+
+console.WriteLine($"Nome da musica: {musica1.Nome})
+console.WriteLine($"Nome da banda: {musica1.Artista.Nome}) - onde musica1.Artista = banda1;
+-----------------------------------
+28/01/25
+-> Terminando o curso básico e introdutório. O ultimo desafio é criar duas classes sendo elas podcast e episodio. Vou colocar aqui coisas importantes dessa reta final:
+
+-A propriedade resumo, é uma concatenação de 3 propriedades. Nesse caso, vamos usar o lambda para isso: public string Resumo => $"{Ordem}, {Titulo}, {Duracao}";
+-public string Resumo => $"{Ordem}. {Titulo} ({Duracao} min) - {string.Join(", ", convidados)}" = para fazer essa lista de convidados separados por virgula e espaço, usamos esse {string.Join mescla a (", ", convidados) virgula, com o espaço, com os convidados;
+-Eu fiz, na classe "podcast" tudo de boa, so a parte do método ExibirDetalhes. Explicação da parte ForEach:
+-Antes de explicar isso, é FUNDAMENTAL entender literalmente o sentido de cada classe E A SUA LIGAÇÃO. Por exemplo, nesse caso, temos uma classe episódio que ela terá seus detalhes, e pela lógica, ela estará dentro de um podcast. Um podcast tem vários episódios. Pronto. Agora entendido isso, fica mais claro o porque que a classe "Podcast" tem uma lista chamada de episódios, e depois você vai conseguir acessar cada episódio presente nessa lista, e exibir seu .Resumo;
+-Então a lógica é: PRIMEIRO, você criar um/uns objeto da classe Episodio. DEPOIS, criar um objeto de Podcast, onde tem o método de adicionar o/os objeto/objetos que você criou da classe "Episodio" numa lista, e exibir com o .Resumo:
+
+{
+    Console.WriteLine($"Podcast {Nome}, apresentado por {Host}\n");
+    foreach (Episodio episodio in episodios) 
+        Console.WriteLine(episodio.Resumo);
+}
+
+-foreach (Episodio episodio in episodios) = essa linha diz que: Para cada elemento "episódios" da lista "episodio", onde cada um desses elementos são um OBJETO da classe Episodio (e com isso, como cada elemento é um objeto da classe Episodio, eu consigo acessar todas as suas propriedades, incluindo a propriedade "Resumo", que inclusive será usada dentro deste forEach);
+-Console.WriteLine(episodio.Resumo) = Será apresentado o Resumo de cada episodio (será apresentado uma propriedade chamada Resumo presente em cada objeto da classe "Episodio" presente na lista);
+
+foreach (Episodio episodio in episodios.OrderBy(e => e.Ordem)) = Por ultimo, esse .OrderBy (e => e.Ordem) é para ordenar de acordo com a própria ordem, caso la na criação do episodio você coloque o primeiro objeto com o valor 2, e o segundo com o valor 1;
+    
+
